@@ -1,0 +1,12 @@
+datasets_path = '/home/gasanoe/datasets'
+scripts_path = '/home/gasanoe/Federated-fixed-point-method/code'
+plots_path = '{}/../plots'.format(scripts_path)
+dataset = 'a1a'
+plot_convergence = False
+time_tracking = True
+n_workers = 20
+l1_penalties = {'mushrooms': 1e-2, 'a5a': 1e-8, 'a8a': 1e-8, 'a9a': 2e-6, 'criteo': 4e-12, 'kdd10': 1e-11, 'kdd12': 1e-16, 'url': 1e-8, 'rcv1': 3e-6}
+big_regularization = True
+logs_path = '{0}/fixed_point/raw_data_{1}'.format(plots_path, dataset)
+use_local_data = True
+permute_data = False
